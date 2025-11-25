@@ -1,5 +1,4 @@
 package jobsheet2;
-
 public class PersegiPanjang {
     public int panjang;
     public int lebar;
@@ -16,6 +15,7 @@ public class PersegiPanjang {
     public double getKeliling() {
         return 2 * (panjang + lebar);
     }
+    
     public void displayLuasKeliling() {
         System.out.println("Luas: " + getLuas());
         System.out.println("Keliling: " + getKeliling());
